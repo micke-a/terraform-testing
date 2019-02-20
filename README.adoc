@@ -1,0 +1,13 @@
+
+== Notes
+
+....
+export AWS_ACCESS_KEY="??"
+export AWS_SECRET_KEY="??"
+
+generate key
+
+keybase pgp gen
+
+terraform output passwords | base64 --decode | keybase pgp decrypt
+....
